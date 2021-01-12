@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <title></title> -->
+	<meta charset="utf-8">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="css/bootstrap-3.3.7.min.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap-3.3.7.min.js"></script>
+	<style>
+    body {
+        font-size: 16px;
+        width: 620px;
+        height: 495px;
+    }
+    .inputs{
+        margin: 8px 0;
+    }
+    /*#clear{*/
+    /*    margin-left: 187px;*/
+    /*}*/
+    </style>
+</head>
+<body>
+<div class="tabbable">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#scan-result-tab" aria-controls="scan-result-tab" data-toggle="tab">扫描结果</a></li>
+		<li><a href="#white-list-tab" aria-controls="white-list-tab" data-toggle="tab" id="white-tab">白名单</a></li>
+		<li><a href="#dist-tab" aria-controls="dist-tab" data-toggle="tab">自定义字典</a></li>
+		<li><a href="#proxy-tab" aria-controls="proxy-tab" data-toggle="tab">代理设置</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="scan-result-tab">
+			<div>
+				<textarea class="form-control" rows="23" id="history" placeholder="成功爆破到的地址将会显示在这里，每行一个"></textarea>
+			</div>
+			<div class="inputs">
+				<button class="btn btn-primary btn-lg center-block" id="clear">清空</button>
+				<!-- <button class="btn btn-success" id="decode">解码</button> -->
+			</div>
+		</div>
+		<div class="tab-pane fade" id="white-list-tab">
+			<div>
+				<textarea class="form-control" rows="23" id="whiteListArea" placeholder="每行一个host，添加的地址不会去扫描，例如：
+www.baidu.com
+192.168.1.1"></textarea>
+			</div>
+			<div class="inputs">
+				<button class="btn btn-primary btn-lg center-block" id="save-white-list">保存设置</button>
+			</div>
+		</div>
+		<div class="tab-pane fade text-center" id="dist-tab">
+			<div class="jumbotron">
+				<h1>即将开放</h1>
+			</div>
+		</div>
+		<div class="tab-pane fade text-center" id="proxy-tab">
+			<div class="jumbotron">
+				<h1>即将开放</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/popup.js"></script>
+</body>
+</html>
