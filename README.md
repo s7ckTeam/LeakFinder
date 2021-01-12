@@ -9,15 +9,21 @@ LeakFinder（觅露）为s7ck Team 红队云武器库F-Box里的一款信息泄�
 
 LeakFinder（觅露）的特色
 
+
 1.白名单机制
+
 2.自定义字典（0.0.4开放）
+
 3.http代理设置（0.0.4开放）
+
 4.随机头（0.0.4开放）
 
 
 ![1.png](https://i.loli.net/2021/01/12/O1JK9Bi3Z8HdMQ7.png)
 ![2.png](https://i.loli.net/2021/01/12/ILtn9xQhJwPkp1U.png)
+
 自定义字典和代理模式将在下个版本开放
+
 ![3.png](https://i.loli.net/2021/01/12/BD4i95ZIMjfh8Lt.png)
 
 ### 运行环境
@@ -42,11 +48,18 @@ LeakFinder（觅露）的特色
 
 ### 特别感谢
 这个项目是免费维护、开发和提供的，基于原作者donot-wong的https://github.com/donot-wong/sensinfor 的增强和修改，本项目会长期维护和更新
+
+
 特别感谢(以下排名不分先后) 
+
 s7ck Team 
+
 Xbj 
+
 d0gman
+
 Morer
+
 sensinfor原作者donot-wong
 
 
@@ -55,7 +68,15 @@ Github项目地址（BUG、需求、规则欢迎提交）: https://github.com/s7
 
 ## 工具反馈交流群
 ![7.png](https://i.loli.net/2021/01/12/dHWCDjMI8hYlav4.png)
+
+
 不好意思又放错了
+
+
 ![8.jpg](https://i.loli.net/2021/01/12/S3ZgMVzleLEI7UA.png)
+
+
 群如果满了可以加微信申请加群
+
+
 ![999.png](https://i.loli.net/2021/01/12/mFavArxeBKLioE5.png)
